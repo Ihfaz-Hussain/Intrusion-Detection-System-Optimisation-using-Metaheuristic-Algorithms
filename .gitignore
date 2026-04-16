@@ -1,0 +1,8 @@
+# Keep the data folder structure, but do not commit raw datasets.
+data/raw/*
+!data/raw/.gitkeep
+
+# Ignore downloaded raw dataset archives and legacy extracted raw folders.
+data/*.zip
+data/MachineLearningCSV/
+
